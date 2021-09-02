@@ -1,0 +1,289 @@
+{
+  "format": 1,
+  "restore": {
+    "S:\\Git\\coreapi\\Rest.Management.Test\\Rest.Management.Test.csproj": {}
+  },
+  "projects": {
+    "S:\\Git\\coreapi\\Rest.Management.Business\\Rest.Management.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "S:\\Git\\coreapi\\Rest.Management.Business\\Rest.Management.Business.csproj",
+        "projectName": "Rest.Management.Business",
+        "projectPath": "S:\\Git\\coreapi\\Rest.Management.Business\\Rest.Management.Business.csproj",
+        "packagesPath": "C:\\Users\\sanje\\.nuget\\packages\\",
+        "outputPath": "S:\\Git\\coreapi\\Rest.Management.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sanje\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "S:\\Git\\coreapi\\Rest.Management.Common\\Rest.Management.Common.csproj": {
+                "projectPath": "S:\\Git\\coreapi\\Rest.Management.Common\\Rest.Management.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "S:\\Git\\coreapi\\Rest.Management.Common\\Rest.Management.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "S:\\Git\\coreapi\\Rest.Management.Common\\Rest.Management.Common.csproj",
+        "projectName": "Rest.Management.Common",
+        "projectPath": "S:\\Git\\coreapi\\Rest.Management.Common\\Rest.Management.Common.csproj",
+        "packagesPath": "C:\\Users\\sanje\\.nuget\\packages\\",
+        "outputPath": "S:\\Git\\coreapi\\Rest.Management.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sanje\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "S:\\Git\\coreapi\\Rest.Management.Test\\Rest.Management.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "S:\\Git\\coreapi\\Rest.Management.Test\\Rest.Management.Test.csproj",
+        "projectName": "Rest.Management.Test",
+        "projectPath": "S:\\Git\\coreapi\\Rest.Management.Test\\Rest.Management.Test.csproj",
+        "packagesPath": "C:\\Users\\sanje\\.nuget\\packages\\",
+        "outputPath": "S:\\Git\\coreapi\\Rest.Management.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sanje\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "S:\\Git\\coreapi\\Rest.Management.Business\\Rest.Management.Business.csproj": {
+                "projectPath": "S:\\Git\\coreapi\\Rest.Management.Business\\Rest.Management.Business.csproj"
+              },
+              "S:\\Git\\coreapi\\Rest.Management.Common\\Rest.Management.Common.csproj": {
+                "projectPath": "S:\\Git\\coreapi\\Rest.Management.Common\\Rest.Management.Common.csproj"
+              },
+              "S:\\Git\\coreapi\\SevenLakes\\Rest.Management.API.csproj": {
+                "projectPath": "S:\\Git\\coreapi\\SevenLakes\\Rest.Management.API.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "S:\\Git\\coreapi\\SevenLakes\\Rest.Management.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "S:\\Git\\coreapi\\SevenLakes\\Rest.Management.API.csproj",
+        "projectName": "Rest.Management.API",
+        "projectPath": "S:\\Git\\coreapi\\SevenLakes\\Rest.Management.API.csproj",
+        "packagesPath": "C:\\Users\\sanje\\.nuget\\packages\\",
+        "outputPath": "S:\\Git\\coreapi\\SevenLakes\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sanje\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "S:\\Git\\coreapi\\Rest.Management.Business\\Rest.Management.Business.csproj": {
+                "projectPath": "S:\\Git\\coreapi\\Rest.Management.Business\\Rest.Management.Business.csproj"
+              },
+              "S:\\Git\\coreapi\\Rest.Management.Common\\Rest.Management.Common.csproj": {
+                "projectPath": "S:\\Git\\coreapi\\Rest.Management.Common\\Rest.Management.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

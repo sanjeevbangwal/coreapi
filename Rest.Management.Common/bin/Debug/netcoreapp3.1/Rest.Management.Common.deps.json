@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Rest.Management.Common/1.0.0": {
+        "runtime": {
+          "Rest.Management.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Rest.Management.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
